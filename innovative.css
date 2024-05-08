@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00692c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+}
+img{
+    width: 95%;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #00692c;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #003d15;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.innovation-detail, .future-outlook {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.innovation-detail h3, .future-outlook h2 {
+    color: #00692c;
+}
+
+.innovation-detail ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.innovation-detail li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.innovation-detail li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #00692c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar a {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .innovation-detail, .future-outlook {
+        width: 95%;
+    }
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #00692c;
+    color: #fff;
+    padding: 10px;
+    margin-top: -20px;
+    text-align: center;
+  }

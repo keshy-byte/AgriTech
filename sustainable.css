@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  header img {
+    max-width: 100px;
+} 
+  header, footer {
+    background-color: #00692c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #00692c;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #003d15;
+}
+  
+  main {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  main h1, main p {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    nav .navs p {
+      margin-bottom: 10px;
+    }
+  }
+  
